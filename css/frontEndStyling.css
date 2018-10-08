@@ -1,0 +1,87 @@
+:root{
+    --buttonWidth: 75px;
+    --buttonheight: 75px;
+    --buttonFont: verdana, courier;
+    --buttonFontSize: 25px;
+    --buttonFontWeight: normal;
+}
+
+#name {
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+#display{
+    position: relative;
+    text-align: right;
+    font-size:35px;
+    right: 5px;
+    width: 276px;
+    height: 65px;
+}
+
+.upper-toolbar{
+    position:relative;
+
+    font-family: var(--buttonFont);
+    font-size: var(--buttonFontSize);
+    font-weight: var(--buttonFontWeight);
+
+    margin: 0px -5px 0px -5px;
+    width: 144px;
+    height: 75px;
+    border:none;
+
+    background:  rgb(221, 67, 67);
+    color: rgb(22, 21, 21);
+}
+
+.right-toolbar{
+    position: relative;
+
+    font-family: var(--buttonFont);
+    font-size: var(--buttonFontSize);
+    font-weight: var(--buttonFontWeight);
+
+    margin: 0px -5px 0px -5px;
+    width: var(--buttonWidth);
+    height: var(--buttonheight);
+    border:none;
+
+    background:  rgb(155, 155, 155);
+    color: rgb(22, 21, 21);
+
+    
+}
+
+.numbers{
+    position: relative;
+
+    font-family: var(--buttonFont);
+    font-size: var(--buttonFontSize);
+    font-weight: var(--buttonFontWeight);
+
+    margin: 0px -5px 0px -5px;
+    width: var(--buttonWidth);
+    height: var(--buttonheight);
+
+    border:none;
+
+    background:  rgb(90, 83, 83);
+    color: rgb(22, 21, 21);
+
+}
+
+.numbers:hover{
+    color: rgb(235, 188, 86);
+    background: rgb(44, 43, 43);
+}
+
+.right-toolbar:hover{
+    color: rgb(86, 163, 235);
+    background: rgb(44, 43, 43);
+}
+
+.upper-toolbar:hover{
+    color: rgb(86, 163, 235);
+    background: rgb(44, 43, 43);
+}
